@@ -194,6 +194,7 @@ static void RunTests( void )
         RUN_TEST_GROUP( HTTPS_Client_Unit_API );
         RUN_TEST_GROUP( HTTPS_Utils_Unit_API );
         RUN_TEST_GROUP( HTTPS_Client_Unit_Sync );
+        RUN_TEST_GROUP( HTTPS_Client_Unit_Async );
     #endif
 }
 /*-----------------------------------------------------------*/
